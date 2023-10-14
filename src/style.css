@@ -1,0 +1,106 @@
+.main {
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.main-content {
+    padding: 15px 30px;
+    min-height: 100vh;
+}
+.slider_main {
+    padding-top: 30px;
+}
+
+.dashboard{
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+.dashboard_option {
+    padding: 15px 10px;
+    font-size: 15px;
+    width: 90%;
+}
+.active {
+    background: #2d2d69;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+.search_input {
+    width: 200px;
+    height: 32px;
+    border: 1px transparent;
+    outline: none;
+}
+.search_icon{
+    width: 25px;
+    height: 32px;
+    background: #ffffff;
+    padding-left: 5px;
+
+}
+.main_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.welcome {
+    height: 70px;
+}
+
+.card_block {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.ant-card-body {
+    height: 140px !important;
+    padding: 15px !important;
+}
+
+.progress {
+    width: 100%;
+    min-height: 180px;
+    padding: 30px 0px;
+}
+.progress_icon {
+    width: 46%;
+    height: 100%;
+    background: chartreuse;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+.progress_statics {
+    width: 54%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.ant-statistic-content-suffix {
+    color: #424242;
+    font-weight: bolder;
+}
+.ant-statistic-title{
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: #424242 !important;
+    font-weight: bold;
+}
+.chart_header {
+    height: 50px;   
+}
+.chart_overview .overview{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0px;
+    height: 6px;
+}
+.chart_overview .earn{
+    font-size: 10px;
+    color: #424242;
+
+}
+.chart_header_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

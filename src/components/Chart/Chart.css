@@ -1,0 +1,18 @@
+.chart {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 11rem;
+  }
+
+  .chart_main{
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 16rem;
+    width: 60%;
+  }

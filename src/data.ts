@@ -1,66 +1,156 @@
 export const chartDataPoints = [
-    { label: 'Jan', value: 0, earn: 129 },
-    { label: 'Feb', value: 0, earn: 139 },
-    { label: 'Mar', value: 0, earn: 160  },
-    { label: 'Apr', value: 0, earn: 129  },
-    { label: 'May', value: 0, earn: 29  },
-    { label: 'Jun', value: 0, earn: 140  },
-    { label: 'Jul', value: 0, earn: 89  },
-    { label: 'Aug', value: 90, earn: 0  },
-    { label: 'Sep', value: 0, earn: 99  },
-    { label: 'Oct', value: 0, earn: 60  },
-    { label: 'Nov', value: 0, earn: 70  },
-    { label: 'Dec', value: 0, earn: 40  },
-  ];
+  { label: "Jan", value: 0, earn: 129 },
+  { label: "Feb", value: 0, earn: 139 },
+  { label: "Mar", value: 0, earn: 160 },
+  { label: "Apr", value: 0, earn: 129 },
+  { label: "May", value: 0, earn: 29 },
+  { label: "Jun", value: 0, earn: 140 },
+  { label: "Jul", value: 0, earn: 89 },
+  { label: "Aug", value: 90, earn: 0 },
+  { label: "Sep", value: 0, earn: 99 },
+  { label: "Oct", value: 0, earn: 60 },
+  { label: "Nov", value: 0, earn: 70 },
+  { label: "Dec", value: 0, earn: 40 },
+];
 
-  export const progressData = [
-    {
-        id:1,
-        icon:'fa-money',
-        iconColor:'#618264',
-        iconBG:'#D0E7D2',
-        title:"Earning",
-        amount:198,
-        growth:true,
-        growthPercentage:37.8
+export const progressData = [
+  {
+    id: 1,
+    icon: "fa-money",
+    iconColor: "#618264",
+    iconBG: "#D0E7D2",
+    title: "Earning",
+    amount: 198,
+    growth: true,
+    growthPercentage: 37.8,
+  },
+  {
+    id: 2,
+    icon: "fa-user",
+    iconColor: "#713ABE",
+    iconBG: "#E5CFF7",
+    title: "Order",
+    amount: 2.4,
+    growth: false,
+    growthPercentage: 2,
+  },
+  {
+    id: "3",
+    icon: "fa-heart",
+    iconColor: "#0802A3",
+    iconBG: "#8ECDDD",
+    title: "Balance",
+    amount: 2.4,
+    growth: false,
+    growthPercentage: 2,
+  },
+  {
+    id: "4",
+    icon: "fa-coffee",
+    iconColor: "#DA0C81",
+    iconBG: "#FACBEA",
+    title: "Total Sales",
+    amount: 89,
+    growth: true,
+    growthPercentage: 11,
+  },
+];
 
-    },
-    {
-        id:2,
-        icon:'fa-user',
-        iconColor:'#713ABE',
-        iconBG:'#E5CFF7',
-        title:"Order",
-        amount:2.4,
-        growth:false,
-        growthPercentage:2
+export const chartData = {
+  labels: ["Red", "Yellow", "Blue"],
+  values: [30, 40, 30],
+};
 
-    },
-    {
-        id:'3',
-        icon:'fa-heart',
-        iconColor:'#0802A3',
-        iconBG:'#8ECDDD',
-        title:"Balance",
-        amount:2.4,
-        growth:false,
-        growthPercentage:2
-
-    },
-    {
-        id:'4',
-        icon:'fa-coffee',
-        iconColor:'#DA0C81',
-        iconBG:'#FACBEA',
-        title:"Total Sales",
-        amount:89,
-        growth:true,
-        growthPercentage:11
-
-    }
-  ]
-
-  export const chartData = {
-    labels: ['Red', 'Yellow', 'Blue'],
-    values: [30, 40, 30],
-  };
+export const productSell = [
+  {
+    id: 1,
+    img: "http://dummyimage.com/219x100.png/ff4444/ffffff",
+    stock: 47,
+    totalSales: 55,
+    productTitle: "Three Brothers (Tre fratelli)",
+    productDesc: "Argentous corneal deposits, right eye",
+    price: 22.16,
+  },
+  {
+    id: 2,
+    img: "http://dummyimage.com/127x100.png/cc0000/ffffff",
+    stock: 43,
+    totalSales: 46,
+    productTitle: "Space Jam",
+    productDesc: "Unspecified open wound of lip",
+    price: 58.85,
+  },
+  {
+    id: 3,
+    img: "http://dummyimage.com/180x100.png/dddddd/000000",
+    stock: 95,
+    totalSales: 12,
+    productTitle: "Exploding Girl, The",
+    productDesc: "Cocaine use, unspecified with other cocaine-induced disorder",
+    price: 3.56,
+  },
+  {
+    id: 4,
+    img: "http://dummyimage.com/177x100.png/5fa2dd/ffffff",
+    stock: 57,
+    totalSales: 33,
+    productTitle: "Martha Marcy May Marlene",
+    productDesc: "Unsp traum nondisp spondylolysis of fourth cervcal vertebra",
+    price: 67.26,
+  },
+  {
+    id: 5,
+    img: "http://dummyimage.com/144x100.png/dddddd/000000",
+    stock: 59,
+    totalSales: 25,
+    productTitle: "Sgt. Kabukiman N.Y.P.D.",
+    productDesc: "Idiopathic gout, left ankle and foot",
+    price: 42.15,
+  },
+  {
+    id: 6,
+    img: "http://dummyimage.com/112x100.png/5fa2dd/ffffff",
+    stock: 12,
+    totalSales: 14,
+    productTitle: "Aces High",
+    productDesc: "Displ transverse fx left acetab, subs for fx w routn heal",
+    price: 38.13,
+  },
+  {
+    id: 7,
+    img: "http://dummyimage.com/112x100.png/5fa2dd/ffffff",
+    stock: 13,
+    totalSales: 61,
+    productTitle: "Garfield's Halloween Adventure",
+    productDesc: "Lacerat blood vessels at wrs/hnd lv of right arm, sequela",
+    price: 79.74,
+  },
+  {
+    id: 8,
+    img: "http://dummyimage.com/215x100.png/dddddd/000000",
+    stock: 78,
+    totalSales: 49,
+    productTitle: "Empire of Dreams: The Story of the 'Star Wars' Trilogy",
+    productDesc: "Bathroom of single-family (private) house as place",
+    price: 72.16,
+  },
+  {
+    id: 9,
+    img: "http://dummyimage.com/108x100.png/dddddd/000000",
+    stock: 48,
+    totalSales: 48,
+    productTitle: "Breaking the Maya Code",
+    productDesc: "Other myositis, right forearm",
+    price: 51.06,
+  },
+  {
+    id: 10,
+    img: "http://dummyimage.com/139x100.png/cc0000/ffffff",
+    stock: 36,
+    totalSales: 64,
+    productTitle: "Pistol Whipped",
+    productDesc: "Unsp opn wnd unsp bk wl of thorax w penet thoracic cavity",
+    price: 50.2,
+  },
+];
+  

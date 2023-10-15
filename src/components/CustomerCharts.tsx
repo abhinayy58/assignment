@@ -63,7 +63,7 @@ const CustomerChart = (props: chartProps) => {
 
   return (
     <div className="dougnut_chart">
-    <div style={{ width: "175", height: "175px" }}>
+    <div style={{ width: "310px", height: "175px" }}>
       <div className="chart_overview">
         <p className="overview">Customers</p>
         <p className="earn">Customers that buy produts</p>
@@ -74,7 +74,7 @@ const CustomerChart = (props: chartProps) => {
         height="150"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g style={{transform: 'translate(22px, 21px)'}} aria-labelledby="group-title">
+        <g style={{transform: 'translate(25px, 22px)'}} aria-labelledby="group-title">
           <circle
           stroke="#eeeeee" strokeWidth="35"
             cx="50"

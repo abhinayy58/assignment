@@ -16,3 +16,17 @@
     height: 16rem;
     width: 60%;
   }
+
+  @media (min-width: 360px) and (max-width: 500px) {
+  .chart_main{
+    width: 100%;
+  }
+    
+    }
+  @media (min-width: 501px) and (max-width: 768px) {
+    .chart_main{
+      width: 100%;
+    }
+      
+    /* … */
+  }

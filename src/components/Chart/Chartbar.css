@@ -30,3 +30,17 @@
     padding-top: 10px;
     color: #61677A;
   }
+
+  @media (min-width: 360px) and (max-width: 500px) {
+    .chart-bar__inner{
+      width: 100%;
+    }
+      
+      }
+    @media (min-width: 501px) and (max-width: 768px) {
+      /* … */
+      .chart-bar__inner{
+        width: 100%;
+      }
+        
+    }

@@ -59,3 +59,8 @@ export const chartDataPoints = [
 
     }
   ]
+
+  export const chartData = {
+    labels: ['Red', 'Yellow', 'Blue'],
+    values: [30, 40, 30],
+  };

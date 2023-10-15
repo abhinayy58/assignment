@@ -2,12 +2,13 @@ import React from "react";
 import * as data from '../data'
 import Chart from "./Chart/Chart";
 import CustomerCharts from "./CustomerCharts";
+import '../style.css'
 
 const ChartValue = () => {
   return (
-    <div>
+    <div className="graph_view">
       <Chart dataPoints={data.chartDataPoints} />
-      <CustomerCharts />
+      <CustomerCharts data={data.chartData} />
     </div>
   );
 };

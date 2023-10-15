@@ -93,14 +93,33 @@
     font-weight: bold;
     margin-top: 0px;
     height: 6px;
+    color: #424242;
 }
 .chart_overview .earn{
     font-size: 10px;
     color: #424242;
-
+   
 }
 .chart_header_title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.graph_view {
+    display: flex;
+    justify-content: space-between;
+}
+.customer_chart{
+    width: 30%;
+    background: #ffffff;
+}
+
+.dougnut_chart {
+    width:30%;
+    background: #ffffff;
+    padding: 21px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    height: 16rem;
 }

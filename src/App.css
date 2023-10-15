@@ -1,3 +1,14 @@
 .app {
   display: flex;
 }
+@media (min-width: 320px) and (max-width: 500px) {
+  .app {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+}

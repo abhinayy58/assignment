@@ -8,7 +8,7 @@ const Progress = () => {
     <div className="progress">
       <Row gutter={[36, 16]}>
         {data?.progressData?.map((item: any) => (
-          <Col  xs={20} sm={16} md={12} lg={8} xl={6} span={6} key={item.id}>
+          <Col  xs={24} sm={24} md={12} lg={8} xl={6} span={6} key={item.id}>
             <Card bordered={false}>
               <div className="card_block">
                 <div

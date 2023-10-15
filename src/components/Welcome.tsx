@@ -6,7 +6,7 @@ const Welcome = () => {
     <div className='welcome'>
       <div className='main_item'>
         <p>Hello Shahrukh 👋</p>
-        <div style={{display:'flex'}}>
+        <div className="main_container" style={{display:'flex'}}>
           <div>
         <SearchOutlined className='search_icon'/>
         </div>

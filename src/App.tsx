@@ -3,6 +3,7 @@ import "./App.css";
 
 import SideBar from "./components/SideBar";
 import Main from "./components/Main";
+import Drawers from "./components/Drawer";
 
 function App() {
   const [width, setWidth] = useState<number>(window.innerWidth);
@@ -20,7 +21,7 @@ useEffect(() => {
 const isMobile = width <= 769;
   return (
     <div className="app">
-     {!isMobile && <SideBar />}
+     {!isMobile ? <SideBar /> : <Drawers><SideBar/></Drawers>}
       <Main />
     </div>
   );

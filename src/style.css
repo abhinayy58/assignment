@@ -221,7 +221,7 @@
   font-weight: bold;
 }
 
-@media (min-width: 360px) and (max-width: 500px) {
+@media (min-width: 359px) and (max-width: 500px) {
   .graph_view {
     flex-direction: column;
     gap: 30px;
@@ -254,7 +254,10 @@
     width: 28%;
   }
   .product_sells {
-    font-size: 8px;
+    font-size: 7px;
+  }
+  .product_names {
+    font-size: 6px;
   }
   .product_name_type img {
     width: 45px;

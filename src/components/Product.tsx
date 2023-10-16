@@ -18,7 +18,7 @@ const Product = (props:productTypeProps) => {
             <div>
                 <img src={props.img} alt="some" loading="lazy" />
             </div>
-            <div style={{height: '50px'}}>
+            <div style={{height: '50px',lineHeight: '9px'}}>
           <p className="product_sells">{props.productTitle}</p>
           <p className="product_names" style={{paddingTop:'4px'}}>{props.productDesc}</p>
           </div>

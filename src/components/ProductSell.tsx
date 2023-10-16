@@ -11,7 +11,7 @@ const ProductSell = () => {
 
   return (
     <div className="product_main">
-       <div>
+       <div className="scrollable-div">
       <div className="product">
         <div className="product_head">
           <p className="product_sell">Product Sell</p>
@@ -19,7 +19,7 @@ const ProductSell = () => {
         </div>
         <div className="product_input-select">
           <div className="product_head_search" style={{ display: "flex", justifyContent :'right' }}>
-            <div style={{display:'contents'}}>
+            <div style={{display:'flex'}}>
             <div>
               <SearchOutlined className="search_icon" />
             </div>

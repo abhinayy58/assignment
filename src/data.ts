@@ -64,7 +64,7 @@ export const chartData = {
 export const productSell = [
   {
     id: 1,
-    img: "http://dummyimage.com/219x100.png/ff4444/ffffff",
+    img: "https://plus.unsplash.com/premium_photo-1669689971484-171a3db9844b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60",
     stock: 47,
     totalSales: 55,
     productTitle: "Three Brothers (Tre fratelli)",
@@ -73,7 +73,7 @@ export const productSell = [
   },
   {
     id: 2,
-    img: "http://dummyimage.com/127x100.png/cc0000/ffffff",
+    img: "https://images.unsplash.com/photo-1697081544011-e472e6a19cc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60",
     stock: 43,
     totalSales: 46,
     productTitle: "Space Jam",
@@ -82,7 +82,7 @@ export const productSell = [
   },
   {
     id: 3,
-    img: "http://dummyimage.com/180x100.png/dddddd/000000",
+    img: "https://images.unsplash.com/photo-1694984121999-36d30b67f391?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60",
     stock: 95,
     totalSales: 12,
     productTitle: "Exploding Girl, The",
@@ -91,7 +91,7 @@ export const productSell = [
   },
   {
     id: 4,
-    img: "http://dummyimage.com/177x100.png/5fa2dd/ffffff",
+    img: "https://images.unsplash.com/photo-1682687981630-cefe9cd73072?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
     stock: 57,
     totalSales: 33,
     productTitle: "Martha Marcy May Marlene",
@@ -100,7 +100,7 @@ export const productSell = [
   },
   {
     id: 5,
-    img: "http://dummyimage.com/144x100.png/dddddd/000000",
+    img: "https://plus.unsplash.com/premium_photo-1666277012918-3e1c1aeca7cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0MHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
     stock: 59,
     totalSales: 25,
     productTitle: "Sgt. Kabukiman N.Y.P.D.",
@@ -109,7 +109,7 @@ export const productSell = [
   },
   {
     id: 6,
-    img: "http://dummyimage.com/112x100.png/5fa2dd/ffffff",
+    img: "https://images.unsplash.com/photo-1682687981922-7b55dbb30892?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
     stock: 12,
     totalSales: 14,
     productTitle: "Aces High",
@@ -118,7 +118,7 @@ export const productSell = [
   },
   {
     id: 7,
-    img: "http://dummyimage.com/112x100.png/5fa2dd/ffffff",
+    img: "https://images.unsplash.com/photo-1697228428234-11ac0aab310c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
     stock: 13,
     totalSales: 61,
     productTitle: "Garfield's Halloween Adventure",
@@ -127,7 +127,7 @@ export const productSell = [
   },
   {
     id: 8,
-    img: "http://dummyimage.com/215x100.png/dddddd/000000",
+    img: "https://images.unsplash.com/photo-1696585042188-328740cd265c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyM3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
     stock: 78,
     totalSales: 49,
     productTitle: "Empire of Dreams: The Story of the 'Star Wars' Trilogy",
@@ -136,7 +136,7 @@ export const productSell = [
   },
   {
     id: 9,
-    img: "http://dummyimage.com/108x100.png/dddddd/000000",
+    img: "https://images.unsplash.com/photo-1682695795557-17447f921f79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
     stock: 48,
     totalSales: 48,
     productTitle: "Breaking the Maya Code",
@@ -145,7 +145,7 @@ export const productSell = [
   },
   {
     id: 10,
-    img: "http://dummyimage.com/139x100.png/cc0000/ffffff",
+    img: "https://images.unsplash.com/photo-1696312981323-60c5a3582887?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
     stock: 36,
     totalSales: 64,
     productTitle: "Pistol Whipped",

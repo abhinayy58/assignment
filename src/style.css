@@ -267,7 +267,7 @@
     flex-direction: column;
   }
   .search_input {
-    width: 95px;
+    width: 100%;
   }
   .product_type p:nth-of-type(2) {
     font-size: 10px;

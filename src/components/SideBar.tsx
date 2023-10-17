@@ -15,7 +15,7 @@ const siderStyle: React.CSSProperties = {
   width:'200px',
   maxWidth:'400px',
   paddingLeft:'20px',
-  minHeight:'100vh',
+  minHeight:'90vh',
     overflow: 'auto',
     height: '100vh',
     position: 'fixed',

@@ -1,6 +1,6 @@
 import React, { ReactNode, useState } from "react";
 import type { DrawerProps, RadioChangeEvent } from "antd";
-import { Button, Drawer, Radio, Space } from "antd";
+import { Button, Drawer } from "antd";
 import { CloseOutlined, MenuOutlined } from "@ant-design/icons";
 interface DrawersProps {
   children: ReactNode;
@@ -25,15 +25,14 @@ const Drawers: React.FC<DrawersProps> = ({ children }) => {
   return (
     <>
       <Button
-        style={{ background: "#001529",position:'absolute',
-        right: 0 }}
+        style={{ background: "#001529", position: "absolute", right: 0 }}
         type="primary"
         onClick={showDrawer}
       >
-        {!open ? <MenuOutlined /> : <CloseOutlined /> }
+        {!open ? <MenuOutlined /> : <CloseOutlined />}
       </Button>
       <Drawer
-        title="Basic Drawer"
+        title=""
         placement={placement}
         closable={false}
         onClose={onClose}

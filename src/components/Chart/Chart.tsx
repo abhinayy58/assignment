@@ -1,5 +1,3 @@
-import React from "react";
-
 import ChartBar from "./Chartbar";
 import "./Chart.css";
 import ChartHeader from "../ChartHeader";

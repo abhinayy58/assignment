@@ -1,26 +1,27 @@
-import React from "react";
 import "../style.css";
 
 type productTypeProps = {
-    img:string,
-    productTitle:string,
-    productDesc:string,
-   stock:number,
-   price:number,
-   totalSales:number
-}
+  img: string;
+  productTitle: string;
+  productDesc: string;
+  stock: number;
+  price: number;
+  totalSales: number;
+};
 
-const Product = (props:productTypeProps) => {
+const Product = (props: productTypeProps) => {
   return (
     <div className="products">
       <div className="product_head">
         <div className="product_name_type">
-            <div>
-                <img src={props.img} alt="some" loading="lazy" />
-            </div>
-            <div style={{height: '50px',lineHeight: '9px'}}>
-          <p className="product_sells">{props.productTitle}</p>
-          <p className="product_names" style={{paddingTop:'4px'}}>{props.productDesc}</p>
+          <div>
+            <img src={props.img} alt="some" loading="lazy" />
+          </div>
+          <div style={{ height: "50px", lineHeight: "9px" }}>
+            <p className="product_sells">{props.productTitle}</p>
+            <p className="product_names" style={{ paddingTop: "4px" }}>
+              {props.productDesc}
+            </p>
           </div>
         </div>
       </div>

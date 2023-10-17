@@ -1,11 +1,9 @@
-import React from "react";
 import { Select } from "antd";
 import "../style.css";
 const ChartHeader = () => {
   const onChange = (value: string) => {
     console.log(`selected ${value}`);
   };
-
 
   return (
     <div className="chart_header">

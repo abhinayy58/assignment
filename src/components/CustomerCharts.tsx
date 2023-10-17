@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import Chart from "chart.js/auto"; // Import Chart.js from 'chart.js/auto' for Chart.js v3.x
 import { ChartOptions } from "chart.js";
 import "../style.css";
@@ -27,7 +27,6 @@ const CustomerChart = (props: chartProps) => {
   useEffect(() => {
     if (chartRef.current) {
       const ctx = chartRef.current.getContext("2d") as CanvasRenderingContext2D;
-  
 
       // Destroy existing chart instance if it exists
       if (chartInstance.current) {
@@ -63,66 +62,70 @@ const CustomerChart = (props: chartProps) => {
 
   return (
     <div className="dougnut_chart">
-    <div style={{ width: "310px", height: "175px" }}>
-      <div className="chart_overview">
-        <p className="overview">Customers</p>
-        <p className="earn">Customers that buy produts</p>
-      </div>
-      <svg
-        style={{ transform: "translate(70px, 20px)" }}
-        width="150"
-        height="150"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g style={{transform: 'translate(25px, 22px)'}} aria-labelledby="group-title">
-          <circle
-          stroke="#eeeeee" strokeWidth="35"
-            cx="50"
-            cy="50"
-            fill="white"
-            r="65"
-            aria-label="Red Circle"
-          ></circle>
-          <g style={{ transform: "translate(16px, 30px)" }}>
-            <text
-              style={{
-                transform: "translate(9px, 10px)",
-                fontSize: "20px",
-                fill: "#424242",
-                fontWeight: "bold",
-              }}
-              id="group-title"
-            >
-              65%
-            </text>
-            <text
-              style={{ transform: "translate(7px, 28px)", fontSize: "10px" }}
-              id="group-title"
-            >
-              Total new
-            </text>
-            <text
-              style={{ transform: "translate(7px, 40px)", fontSize: "10px" }}
-              id="group-title"
-            >
-              Customers
-            </text>
+      <div style={{ width: "310px", height: "175px" }}>
+        <div className="chart_overview">
+          <p className="overview">Customers</p>
+          <p className="earn">Customers that buy produts</p>
+        </div>
+        <svg
+          style={{ transform: "translate(70px, 20px)" }}
+          width="150"
+          height="150"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            style={{ transform: "translate(25px, 22px)" }}
+            aria-labelledby="group-title"
+          >
+            <circle
+              stroke="#eeeeee"
+              strokeWidth="35"
+              cx="50"
+              cy="50"
+              fill="white"
+              r="65"
+              aria-label="Red Circle"
+            ></circle>
+            <g style={{ transform: "translate(16px, 30px)" }}>
+              <text
+                style={{
+                  transform: "translate(9px, 10px)",
+                  fontSize: "20px",
+                  fill: "#424242",
+                  fontWeight: "bold",
+                }}
+                id="group-title"
+              >
+                65%
+              </text>
+              <text
+                style={{ transform: "translate(7px, 28px)", fontSize: "10px" }}
+                id="group-title"
+              >
+                Total new
+              </text>
+              <text
+                style={{ transform: "translate(7px, 40px)", fontSize: "10px" }}
+                id="group-title"
+              >
+                Customers
+              </text>
+            </g>
           </g>
-        </g>
-      </svg>
+        </svg>
 
-      <canvas
-        id="my-chart"
-        style={{
-          transform: "translate(-11px, -150px)",
-          height: "175px",
-          width: "175px",
-        }}
-        ref={chartRef}
-        height="175px"
-        width="175px"
-      ></canvas>
-    </div>
+        <canvas
+          id="my-chart"
+          style={{
+            transform: "translate(-11px, -150px)",
+            height: "175px",
+            width: "175px",
+          }}
+          ref={chartRef}
+          height="175px"
+          width="175px"
+        ></canvas>
+      </div>
     </div>
   );
 };

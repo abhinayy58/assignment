@@ -1,30 +1,28 @@
-import React from 'react';
-
-import './Chartbar.css';
+import "./Chartbar.css";
 
 type dataProps = {
-  value: number,
-  maxValue: number,
-  label:string,
-  earnPoint:number
-}
+  value: number;
+  maxValue: number;
+  label: string;
+  earnPoint: number;
+};
 
-const ChartBar = (props:dataProps) => {
-  let barFillHeight = '0%';
+const ChartBar = (props: dataProps) => {
+  let barFillHeight = "0%";
 
   if (props.maxValue > 0) {
-    barFillHeight = Math.round((props.value / props.maxValue) * 100) + '%';
+    barFillHeight = Math.round((props.value / props.maxValue) * 100) + "%";
   }
 
   return (
-    <div className='chart-bar'>
-      <div className='chart-bar__inner' style={{}}>
+    <div className="chart-bar">
+      <div className="chart-bar__inner" style={{}}>
         <div
-          className='chart-bar__fill'
+          className="chart-bar__fill"
           style={{ height: barFillHeight }}
         ></div>
       </div>
-      <div className='chart-bar__label'>{props.label}</div>
+      <div className="chart-bar__label">{props.label}</div>
     </div>
   );
 };

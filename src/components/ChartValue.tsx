@@ -1,4 +1,3 @@
-import React from "react";
 import * as data from '../data'
 import Chart from "./Chart/Chart";
 import CustomerCharts from "./CustomerCharts";

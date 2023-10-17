@@ -247,6 +247,10 @@ align-items: center;
 }
 
 @media (min-width: 359px) and (max-width: 500px) {
+  .ant-layout-sider-children{
+    justify-content: unset;
+    gap: 30px;
+  }
   .graph_view {
     flex-direction: column;
     gap: 30px;

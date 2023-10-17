@@ -1,7 +1,8 @@
 import React from 'react';
-import { Layout, Space } from 'antd';
-import { DashboardOutlined} from '@ant-design/icons';
+import { Layout } from 'antd';
+import { DashboardOutlined,UserOutlined} from '@ant-design/icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Avatar, Space } from 'antd';
 import { faThumbsUp, faChartLine ,faMoneyCheckDollar, faRectangleAd, faQuestion,faUser,faChevronRight} from '@fortawesome/free-solid-svg-icons';
 import '../style.css'
 const { Sider} = Layout;
@@ -11,14 +12,22 @@ const siderStyle: React.CSSProperties = {
   // lineHeight: '100px',
   color: '#fff',
   backgroundColor: '#040440',
-  width:'25%',
+  width:'200px',
+  maxWidth:'400px',
   paddingLeft:'20px',
-  minHeight:'100vh'
+  minHeight:'100vh',
+    overflow: 'auto',
+    height: '100vh',
+    position: 'fixed',
+    left: 0,
 };
 
+const profile = 'https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHVzZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60'
+
 const Sidebar = () => (
+  
   // <Space direction="vertical" size={[0, 48]}>
-    <Layout>
+    <Layout className='sidebar_layout'>
     <Sider style={siderStyle}>
       <div className="slider_main">
       <div className='dashboard'>
@@ -48,6 +57,15 @@ const Sidebar = () => (
       <FontAwesomeIcon style={{paddingRight: '10px'}} icon={faQuestion} />help 
       <FontAwesomeIcon style={{float:'right'}} icon={faChevronRight} />
       </div>
+      </div>
+      <div className='dashboard_option active dashboard_profile'>
+      {/* <Avatar style={{marginRight: '15px'}}size="large" src={profile} /> */}
+      <img src={profile} alt="Avatar" className="avatar"></img>
+      <div style={{lineHeight:"2px"}}>
+        <p style={{fontSize:"12px", fontWeight:'bold'}}>Evano</p>
+        <p style={{fontSize:"10px"}}>Project Manager</p>
+      </div>
+      <FontAwesomeIcon style={{float:'right'}} icon={faChevronRight} />
       </div>
     </Sider>
     </Layout>

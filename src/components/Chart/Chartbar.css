@@ -47,3 +47,9 @@
       }
         
     }
+
+    @media (min-width: 1025px) and (max-width: 1260px) {
+      .chart-bar__inner{
+        width: 90%;
+      }
+    }
